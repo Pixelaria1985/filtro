@@ -1,0 +1,19 @@
+CREATE DATABASE colores_db;
+
+USE colores_db;
+
+CREATE TABLE colores (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    color VARCHAR(100),
+    numero VARCHAR(50)
+);
+
+
+---------------------------------------------
+
+--BASE DE DATOS--
+conexion.php
+
+--PAGINAS-
+agregar.php
+ver.php
